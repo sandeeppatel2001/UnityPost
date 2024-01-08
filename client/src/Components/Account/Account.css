@@ -1,0 +1,111 @@
+.account {
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 1fr 400px;
+  height: 92vh;
+}
+
+.accountLeft {
+  background-color: #edeef0;
+  /* background-image: linear-gradient(to right, #fff5bc, #cec1ff); */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2vmax;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+.accountRight {
+  padding: 2vmax;
+  box-sizing: border-box;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.accountRight img {
+  transition: all 0.5s;
+}
+
+.accountRight img:hover {
+  transform: scale(1.1);
+}
+
+.accountRight > h5 {
+  margin: 2vmax;
+}
+
+.accountRight > a {
+  color: rgb(73, 73, 73);
+  text-decoration: none;
+  font: 100 1.2rem "Roboto";
+  text-align: center;
+  margin-top: 2vmax;
+  padding: 0.5vmax 1vmax;
+  transition: all 0.5s;
+}
+
+.accountRight > a:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.253);
+}
+.accountRight > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1vmax;
+}
+
+.accountRight > div > button:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.253);
+}
+.accountRight > div > button {
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  transition: all 0.5s;
+  padding: 0.5vmax 1vmax;
+}
+
+@media screen and (max-width: 600px) {
+  .account {
+    grid-template-columns: 2fr 1fr;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .accountLeft {
+    padding: 0;
+    min-height: 60vh;
+  }
+
+  .accountRight > a {
+    font: 100 1rem "Roboto";
+    margin-top: 6vw;
+  }
+  .accountRight {
+    flex-direction: row;
+    padding: 0% !important;
+    overflow-y: visible;
+  }
+  .accountRight > div {
+    margin: 0.7vmax;
+  }
+  p,
+  h6 {
+    font-size: 0.6rem !important;
+  }
+  .tohide {
+    display: none !important;
+  }
+  button {
+    padding: 0 !important;
+  }
+  .profilelogo,
+  .userbyidprofile {
+    width: 20%;
+    /* align-items: center;
+    flex-direction: column; */
+    text-align: center;
+  }
+}
