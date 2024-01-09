@@ -66,7 +66,7 @@ const Home = () => {
             <hr className="hr"></hr>
             {users && User.length > 0 ? (
               users.map((user) => (
-                <div>
+                <div className="profilerow">
                   <User
                     sty={1}
                     key={user._id}
