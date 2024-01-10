@@ -17,7 +17,7 @@ if (process.env.NODE_ENV === "production" || 1) {
   const __dirname1 = path.resolve();
   console.log("sandeep");
   app.get("/", (req, res) => {
-    app.use(express.static(path.join(__dirname1, "../client/build")));
+    app.use(express.static(path.join(__dirname1, "../client/build/")));
     res.sendFile(path.join(__dirname1, "../client/build/index.html"));
   });
 }

@@ -72,16 +72,17 @@
     grid-template-columns: 2fr 1fr;
     display: flex;
     flex-direction: column-reverse;
+    height: auto !important;
   }
 
   .accountLeft {
     padding: 0;
-    min-height: 60vh;
+    min-height: 90vh;
   }
 
   .accountRight > a {
     font: 100 1rem "Roboto";
-    margin-top: 6vw;
+    /* margin-top: 6vw; */
   }
   .accountRight {
     flex-direction: row;
