@@ -12,18 +12,48 @@ Technologies: React, CSS3, Material-UI, NodeJs, Express, Mongoose, MongoDB, Redu
 ``
 cd server
 ``
-``
-npm i
-``
-``
-npm start
-``
-``
-cd client
-``
-``
-npm i
-``
-``
-npm start
-``
+-------------------------------------------------------------------------------------------
+## Frontend Setup
+
+
+1. Change into the "task" directory:
+
+   ```bash
+   cd task
+   ```
+2. Navigate to the root directory and install the required frontend dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Start the frontend development server:
+
+   ```bash
+   npm start
+   ```
+
+   This will launch the React application, and you can access it in your web browser.
+
+## Backend Setup
+
+1. Navigate to the "backend" directory:
+
+   ```bash
+   cd backend
+   ```
+
+2. Install the necessary backend dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Replace the placeholder URL in the environment file with the appropriate MongoDB connection string.
+
+4. Start the backend server:
+
+   ```bash
+   npm start
+   ```
+
