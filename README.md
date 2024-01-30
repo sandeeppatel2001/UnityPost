@@ -8,10 +8,7 @@
 <img width="164" alt="Screenshot 2024-01-24 211421" src="https://github.com/sandeeppatel2001/UnityPost/assets/95873801/031ffea7-9332-4134-9a68-3b55c0790d88">
 
 Technologies: React, CSS3, Material-UI, NodeJs, Express, Mongoose, MongoDB, Redux toolkit, React-Toastify, Bcrypt, Cloudinary, JSON web token, Axios, React Router Dom
-## For Localset-Up
-``
-cd server
-``
+
 -------------------------------------------------------------------------------------------
 ## Frontend Setup
 
@@ -40,7 +37,7 @@ cd server
 1. Navigate to the "backend" directory:
 
    ```bash
-   cd backend
+   cd server
    ```
 
 2. Install the necessary backend dependencies:
