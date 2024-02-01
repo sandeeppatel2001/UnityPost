@@ -13,10 +13,10 @@ Technologies: React, CSS3, Material-UI, NodeJs, Express, Mongoose, MongoDB, Redu
 ## Frontend Setup
 
 
-1. Change into the "task" directory:
+1. Change into the "Client" directory:
 
    ```bash
-   cd task
+   cd client
    ```
 2. Navigate to the root directory and install the required frontend dependencies:
 
