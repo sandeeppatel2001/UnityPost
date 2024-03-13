@@ -7,28 +7,6 @@
 <img width="165" alt="Screenshot 2024-01-24 211146" src="https://github.com/sandeeppatel2001/UnityPost/assets/95873801/ea23d271-7adc-4aaa-9433-78f2afea9119">
 <img width="164" alt="Screenshot 2024-01-24 211421" src="https://github.com/sandeeppatel2001/UnityPost/assets/95873801/031ffea7-9332-4134-9a68-3b55c0790d88">
 -------------------------------------------------------------------------------------------
-## Frontend Setup
-
-
-1. Change into the "Client" directory:
-
-   ```bash
-   cd client
-   ```
-2. Navigate to the root directory and install the required frontend dependencies:
-
-   ```bash
-   npm install
-   ```
-
-3. Start the frontend development server:
-
-   ```bash
-   npm start
-   ```
-
-   This will launch the React application, and you can access it in your web browser.
-
 ## Backend Setup
 
 1. Navigate to the "backend" directory:
@@ -50,4 +28,26 @@
    ```bash
    npm start
    ```
+
+## Frontend Setup
+
+
+1. Change into the "Client" directory:
+
+   ```bash
+   cd client
+   ```
+2. Navigate to the root directory and install the required frontend dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Start the frontend development server:
+
+   ```bash
+   npm start
+   ```
+
+   This will launch the React application, and you can access it in your web browser.
 
