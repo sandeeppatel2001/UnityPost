@@ -6,7 +6,8 @@
 <img width="166" alt="Screenshot 2024-01-23 221244" src="https://github.com/sandeeppatel2001/UnityPost/assets/95873801/fc93693e-6897-46ca-9b05-c022e404e98d">
 <img width="165" alt="Screenshot 2024-01-24 211146" src="https://github.com/sandeeppatel2001/UnityPost/assets/95873801/ea23d271-7adc-4aaa-9433-78f2afea9119">
 <img width="164" alt="Screenshot 2024-01-24 211421" src="https://github.com/sandeeppatel2001/UnityPost/assets/95873801/031ffea7-9332-4134-9a68-3b55c0790d88">
-## Backend Setup
+
+# Backend Setup
 1. Navigate to the "backend" directory:
 
    ```bash
