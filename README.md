@@ -1,4 +1,4 @@
-# UnityPost
+# UnityPost Social Media App
 ## [Cliclk Here For Demo](https://sandeeppost.adaptable.app/)
 
 <img width="929" alt="Screenshot 2024-01-23 220929" src="https://github.com/sandeeppatel2001/UnityPost/assets/95873801/b112ec8f-294f-420e-a0c6-60af5d4d93b8">
